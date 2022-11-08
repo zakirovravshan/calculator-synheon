@@ -133,7 +133,10 @@ text-align: center;
         background-image: url(../../images/mountain4.jpg);
     }
     .calculator__box{
-        padding: 50px 10px 80px 10px;
+        padding: 80px 10px 80px 10px;
+    }
+    .calculator__form{
+        margin-bottom: 80px;
     }
     .calculator__inp{
         max-width: 100px;
@@ -163,6 +166,7 @@ text-align: center;
         margin: 0;
         margin-top: 10px;
         font-size: 16px;
+        margin-bottom: 20px;
     }
 }
 
