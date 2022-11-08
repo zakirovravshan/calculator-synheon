@@ -501,26 +501,32 @@ main {
     background-image: url(../../images/mountain4.jpg);
   }
   .calculator__inp {
-    max-width: 110px;
+    max-width: 90px;
     padding: 10px;
   }
   .calculator__select {
-    max-width: 110px;
+    max-width: 90px;
     padding: 10px;
   }
   .form__btn {
-    max-width: 110px;
+    max-width: 90px;
     padding: 10px;
+    font-size: 12px;
   }
   .calculator__item {
-    padding: 10px 20px;
-    max-width: 170px;
+    padding: 10px 15px;
+    max-width: 140px;
   }
   .calculator__item__img {
     margin: 0 auto;
     max-width: 100px;
   }
+  .calculator__item__text {
+    margin: 0;
+  }
   .calculator__item__title {
+    margin: 0;
+    margin-top: 10px;
     font-size: 16px;
   }
 }/*# sourceMappingURL=main.css.map */
