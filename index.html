@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SynHeon Calculator</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="site-main">
+        <section class="calculator">
+            <div class="container">
+                <div class="calculator__innner">
+                    <div class="calculator__box">
+                        <a class="logo" href="https://t.me/LUBRIC_UZ" target="_blank"> <img class="logo__img"
+                                src="./images/synheon.png" alt=" synheon logo" width="512" height="125"></a>
+                        <form class="calculator__form">
+                            <input class="calculator__inp" type="tel" name="calcultor__number"
+                                placeholder="Литр" required autocomplete="off">
+                            <select class="calculator__select" required  >
+                                <option class="gradus" class="gradus" value="disabled" disabled selected>Градус 🌡</option>
+                                <option class="gradus" value="35"> -35 ℃</option>
+                                <option class="gradus" value="25"> -25 ℃</option>
+                                <option class="gradus" value="15"> -15 ℃</option>
+                                <option class="gradus" value="8"> -8 ℃</option>
+
+                            </select>
+                            <button class="form__btn">  Вычислить </button>
+
+                        </form>
+                        <ul class="calculator__list">
+                            <li class="calculator__item ">
+                                <img class="calculator__item__img" src="./images/water.png" alt=" water image"
+                                    width="50" height="50">
+                                    <p class="calculator__item__title"> Вода</p>
+                                <p class="calculator__item__text water"> <img class="loader" src="./images/loader.svg" alt=" loader icon " width="40" height="40"> Заполните форму</p>
+                            </li>
+                            <li class="calculator__item ">
+                                <img class="calculator__item__img" src="./images/antifreeze.png" alt=" water image"
+                                    width="50" height="50">
+                                    <p class="calculator__item__title"> Концентрат</p>
+                                <p class="calculator__item__text antifreeze"> <img class="loader" src="./images/loader.svg" alt=" loader icon " width="40" height="40"> Заполните форму</p>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>

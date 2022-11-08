@@ -1,0 +1,160 @@
+.calculator__innner{
+    padding: 50px 0;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.logo__img{
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.calculator__box{
+    padding: 30px 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(4, 96, 189, 0.365) 0px 0px 15px 0px;
+}
+.calculator__form{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.calculator__inp {
+    width: 100%;
+    max-width: 155px;
+    border-radius: 25px;
+    padding: 15px;
+
+    background-color: #fff;
+    outline-color: red;
+    border: 3px solid #2196f3;
+    text-align: center  ;
+}
+
+.calculator__select {
+width: 100%;
+max-width: 160px;
+padding: 15px;
+border-radius: 25px;
+border: 1px solid gray;
+outline-color: #2196f3;
+border: 3px solid #2196f3;
+appearance: none;
+text-align: center;
+}
+
+.form__btn {
+    width: 100%;
+    max-width: 140px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: #2196f3;
+    color: #fff;
+    border: 3px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+
+.form__btn:hover {
+
+    border: 3px solid #2196f3;
+    box-shadow: #2196f3 0px 0px 15px 0px;
+    ;
+}
+
+.form__btn:active {
+    box-shadow: none;
+}
+
+
+.calculator__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.calculator__item {
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 210px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.648);
+    box-shadow: rgba(255, 255, 255, 0.845) 0px 5px 15px 0px;
+    transition: all 0.4s ease;
+}
+
+.calculator__item__img {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+}
+
+.calculator__item__title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image: url(../../images/mountain4.jpg);
+    }
+    .calculator__inp{
+        max-width: 110px;
+        padding: 10px;
+    }
+    .calculator__select{
+        max-width: 110px;
+        padding: 10px;
+    }
+    .form__btn{
+        max-width: 110px;
+        padding: 10px;
+    }
+    .calculator__item{
+        padding: 10px 20px;
+        max-width: 170px;
+    }
+    .calculator__item__img{
+        margin: 0 auto;
+        max-width: 100px;
+    }
+    .calculator__item__title{
+        font-size: 16px;
+    }
+}
+
+    
