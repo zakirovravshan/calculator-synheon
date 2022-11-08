@@ -132,16 +132,19 @@ text-align: center;
     body{
         background-image: url(../../images/mountain4.jpg);
     }
+    .calculator__box{
+        padding: 50px 10px 80px 10px;
+    }
     .calculator__inp{
-        max-width: 90px;
+        max-width: 100px;
         padding: 10px;
     }
     .calculator__select{
-        max-width: 90px;
+        max-width: 100px;
         padding: 10px;
     }
     .form__btn{
-        max-width: 90px;
+        max-width: 100px;
         padding: 10px;
         font-size: 12px;
     }
