@@ -583,10 +583,6 @@ html, body {
   /*transition: all 1s;*/
 }
 
-.body {
-  background-color: darkcyan;
-}
-
 @media only screen and (max-width: 600px) {
   body {
     background-image: url(../../images/mountain4.jpg);
